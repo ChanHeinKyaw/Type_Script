@@ -1,3 +1,12 @@
 => Typescript ကို browser က မသိဘူး မသိတဲ့ အတွက် combine လုပ်ပေးရတယ် 
 => cmd #tsc sandbox.ts sandbox.js
 => Name အတူတူပဲ ပေးချင်ရင် cmd #tsc sandbox.ts လို့ run လို့ရတယ်
+
+=> custom directory သတ်မှာ ချင်ရင်
+(1) tsc --init
+(2) tsconfig.json file က rootDir မှာ ts file ရှိနေတဲ့ path ကို ထည့် 
+(3) tsconfig.json file က outDir  မှာ js file ရဲ့ path ကို ထည့် 
+(4) combine လုပ်တဲ့ အခါမျာ ဘယ် folder အတွင်း က ts file တွေကို ပဲ combine လုပ်ပါ့မယ် လို့ သတ်မှာ ချင်ရင် 
+    tsconfig.js မှာ 
+    e.g "include": ["src"] 
+    လို့ ရေး

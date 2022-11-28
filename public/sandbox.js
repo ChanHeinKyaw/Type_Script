@@ -1,3 +1,4 @@
+"use strict";
 //########################Chapter-1########################//
 // const charcter = "lario"
 // console.log(charcter);
