@@ -1,0 +1,3 @@
+=> Typescript ကို browser က မသိဘူး မသိတဲ့ အတွက် combine လုပ်ပေးရတယ် 
+=> cmd #tsc sandbox.ts sandbox.js
+=> Name အတူတူပဲ ပေးချင်ရင် cmd #tsc sandbox.ts လို့ run လို့ရတယ်
