@@ -21,3 +21,40 @@
 // }
 // // console.log(circ("Hello")); //Error => NaN
 // console.log(circ(23)); // Result => 72.25663103256524
+//########################Chapter-3########################//
+//Array 
+// let names = ['luigio','mario','yoshi'];
+// names.push('toad');// fine
+// names.push(3);// fine
+// names[0] = 3; // Sould Not Number
+// let numbers = [10,20,30,40];
+// numbers.push(25); //fine
+// numbers.push('hello'); // fine
+// numbers[0] = 'hello'; // Sould Not String
+// let mixed = ['ken',4,'chun-li',8,9];
+// mixed.push(25); //fine
+// mixed.push('hello'); // fine
+// mixed[0] = 3; // fine
+// console.log(mixed);
+//Object
+// let ninja = {
+//     name: 'mario',
+//     belt : 'black',
+//     age:30,
+// }
+// ninja.age = 40; // Fine
+// ninja.name = 'ryu', // Fine
+// ninja.age = '30'; // Should Not String
+// ninja.skills = ['fighting','sneaking'] // Array does not exit
+// အပေါ်မှာ ninja object ရဲ့ property တွေက ၃ ခု ရှိပါတယ် အောက်မှာ ninja object ကို overwrite လုပ်တော့ ၂ ခု ပဲ လုပ်ထားလို့ error ပြနေပါတယ်
+// ninja = {
+//     name: 'yoshi',
+//     belt: 'orange',
+// }
+// အပေါ်မှာ ninja object ရဲ့ property တွေက ၃ ခု ရှိပါတယ် အောက်မှာ ninja object ကို overwrite လုပ်တော့ ၃ ခု ပဲ လုပ်ထားလို့ error မပြပါဘူး
+// ninja = {
+//     name: 'yoshi',
+//     belt: 'orange',
+//     age: 40,
+// }
+// console.log(ninja);
