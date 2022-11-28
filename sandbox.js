@@ -58,3 +58,34 @@
 //     age: 40,
 // }
 // console.log(ninja);
+//########################Chapter-4########################//
+//Explicit Types
+// let character: string;
+// let age: number;
+// let isloggedIn: boolean;
+// //age = 'luigi';
+// age = 30;
+// //isloggedIn = 25;
+// isloggedIn = true;
+// //arrays 
+// let ninjas: string[] = [];
+// ninjas.push('hello');
+// console.log(ninjas);
+// //union types
+// let mixed: (string|number|boolean)[] = [];
+// mixed.push('hello');
+// mixed.push(20);
+// mixed.push(false);
+// let uid: string|number;
+// uid = '123';
+// uid = 123;
+// // Objects
+// let ninjaOne: object;
+// ninjaOne = { name: 'yoshi',age: 30};
+// let ninjaTwo: {
+//     name: string,
+//     age: number,
+//     beltColour: string,
+// }
+// ninjaTwo = {name: "mario",age: 20,beltColour:'black',skills: []}
+//########################Chapter-5########################//
