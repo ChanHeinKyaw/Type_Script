@@ -148,6 +148,47 @@
 // console.log(ninja);
 
 
+//########################Chapter-7########################//
+// let greet: Function;
+
+// // greet = 'hello'; // Error
+
+// greet = () => {
+//     console.log("Hello,again")
+// }
+
+
+// const add = (a: number, b: number, c?: number | string = 10): void => {
+//     console.log(a + b);
+//     console.log(c);
+// }
+
+// // add('Hello' , 'world'); Error
+// add(2 , 3 , '15');
+
+
+
+// const mins = (a: number, b: number): number => {
+//     return a + b;
+// }
+
+// let result = mins(3, 3);
+// console.log(typeof result);
+
+
+
+
+// const mins = (a: number, b: number): number => {
+//     return a + b;
+// }
+
+// let result = mins(3, 3);
+// console.log(typeof result);
+
+
+
+
+
 
 
 

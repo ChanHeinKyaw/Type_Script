@@ -10,3 +10,6 @@
     tsconfig.js မှာ 
     e.g "include": ["src"] 
     လို့ ရေး
+
+=> reutrn ပြန်လိုက်တဲ့ data က ဘာ value မှ return ပြန်မပေးဘူး ဆိုရင် 
+   data type ကို void လို့ သတ်မှတ်ပေးရတယ်။
