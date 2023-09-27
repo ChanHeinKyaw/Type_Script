@@ -13,3 +13,11 @@
 
 => reutrn ပြန်လိုက်တဲ့ data က ဘာ value မှ return ပြန်မပေးဘူး ဆိုရင် 
    data type ကို void လို့ သတ်မှတ်ပေးရတယ်။
+
+const anchor = document.querySelector('a')!;
+anchor က မရှိတဲ့ အခြေအနေ ရှိနိုင်တဲ့အတွက် error တက်နိုင်ပါတယ်
+! ထည့်လိုက်ရင် error မတက်တော့ ပါဘူး ဒါမှ မဟုတ် if condition နဲ့ စစ်ပေးဖို့လိုပါတယ်
+
+HTMLFormElement မပါရင် type element အနေနဲ့ ရှိနေပြီး 
+form.value လို့ အဖြေ ထုတ်ရင် error တက်နေပါတယ် အဲ့တာကြောင့် HTMLFormElement လို့ ထည့်ပေးလိုက်ရင် HTMLFormElement ပြောင်းသွားပြီး
+error မတက်တော့ပါဘူး။
