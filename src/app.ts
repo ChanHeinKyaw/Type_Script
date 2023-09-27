@@ -1,13 +1,15 @@
 //########################Chapter-11#######################//
 class Invoice {
-    client: string;
-    details: string;
-    amount: number;
+    // readonly client: string;
+    // private details: string;
+    // public amount: number;
 
-    constructor(c: string, d: string, a: number){
-        this.client = c;
-        this.details = d;
-        this.amount = a;
+    constructor(
+        readonly client: string,
+        private details: string,
+        public amount: number,
+    ){
+
     }
 
     format(){
@@ -23,11 +25,18 @@ let invoices: Invoice[] = []; // type ကို Invoice ကြေ ြငာထ�
 invoices.push(invOne);
 invoices.push(invTwo);
 
-invOne.client = 'yoshi'; // overwrite mario
-invTwo.amount = 400; // overwrite 300
+invoices.forEach(inv =>{
+    console.log(inv.client, inv.amount, inv.format());
+});
 
-console.log(invOne,invTwo);
-console.log(invoices);
+// invOne.client = "yoshi" // error because of this client is readonly modifier
+
+// invOne.client = 'yoshi'; // overwrite mario
+// invTwo.amount = 400; // overwrite 300
+
+
+// console.log(invOne,invTwo);
+// console.log(invoices);
 
 
 //########################Chapter-10#######################//

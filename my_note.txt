@@ -21,3 +21,9 @@ anchor က မရှိတဲ့ အခြေအနေ ရှိနိုင်�
 HTMLFormElement မပါရင် type element အနေနဲ့ ရှိနေပြီး 
 form.value လို့ အဖြေ ထုတ်ရင် error တက်နေပါတယ် အဲ့တာကြောင့် HTMLFormElement လို့ ထည့်ပေးလိုက်ရင် HTMLFormElement ပြောင်းသွားပြီး
 error မတက်တော့ပါဘူး။
+
+Access Modifiers 
+
+readonly    => readonly ပဲ လုပ်လို့ရတယ် write လုပ်လို့မရဘူး
+private     => Class အတွင်းထဲမှာ ပဲ read, write လုပ်ဖိူ့ ခေါ် သုံး လို့ရတယ် class အပြင် က ခေါ် လုပ်လို့မရဘူး
+public      =>  Class အတွင်း ရော အပြင် မှာရော read, write လုပ်လို့ရတယ်

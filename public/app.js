@@ -1,10 +1,13 @@
 "use strict";
 //########################Chapter-11#######################//
 class Invoice {
-    constructor(c, d, a) {
-        this.client = c;
-        this.details = d;
-        this.amount = a;
+    // readonly client: string;
+    // private details: string;
+    // public amount: number;
+    constructor(client, details, amount) {
+        this.client = client;
+        this.details = details;
+        this.amount = amount;
     }
     format() {
         return `${this.client} owes ${this.amount} for ${this.details}`;
@@ -16,10 +19,14 @@ let invoices = []; // type ကို Invoice ကြေ ြငာထားလိ�
 //invoices.push('name'); // error 
 invoices.push(invOne);
 invoices.push(invTwo);
-invOne.client = 'yoshi'; // overwrite mario
-invTwo.amount = 400; // overwrite 300
-console.log(invOne, invTwo);
-console.log(invoices);
+invoices.forEach(inv => {
+    console.log(inv.client, inv.amount, inv.format());
+});
+// invOne.client = "yoshi" // error because of this client is readonly modifier
+// invOne.client = 'yoshi'; // overwrite mario
+// invTwo.amount = 400; // overwrite 300
+// console.log(invOne,invTwo);
+// console.log(invoices);
 //########################Chapter-10#######################//
 // const anchor = document.querySelector('a')!;
 // if(anchor){
