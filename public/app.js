@@ -1,3 +1,21 @@
+//########################Chapter-17#######################//
+// enum ResourceType{ BOOK, AUTHOR, FILM, DIRECTOR, PERSON}
+// interface Resource<T> {
+//     uid: number;
+//     resourceName: ResourceType;
+//     data: T;
+// }
+// const docThree: Resource<object> = {
+//     uid: 1,
+//     resourceName: ResourceType.BOOK,
+//     data: {name: 'shaun'},
+// }
+// const docFour: Resource<string[]> = {
+//     uid: 2,
+//     resourceName: ResourceType.PERSON,
+//     data: ['bread','milk','toilet roll']
+// }
+// console.log(docThree,docFour);
 //########################Chapter-16#######################//
 // GENERICS
 // const addUID = <T extends object>(obj: T) => {
